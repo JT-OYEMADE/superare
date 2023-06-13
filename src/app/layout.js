@@ -1,17 +1,20 @@
 import "./globals.css";
 import { manrope, monumentExtended } from "@/shared/fontLoader";
 
+export const metadata = {
+  description: "Discover and Collect Super Rare NFTs",
+  title: {
+    template: "%s | Superare - Buy super rare NFTs",
+    default: "Superare - Buy super rare NFTs",
+  },
+  applicationName: "Superare",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${manrope.className}`}>
       <head />
-      <body>
-        <nav className={`${monumentExtended.className}`}>
-          <h1 className="text-brightPink">SUPERARE</h1>
-          <div>Discover and Collect Super Rare NFTs</div>
-        </nav>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
   {

@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { manrope, monumentExtended } from "@/shared/fontLoader";
 
+export const metadata = {
+  title: "About ",
+};
 export default function About() {
   return (
     <>
