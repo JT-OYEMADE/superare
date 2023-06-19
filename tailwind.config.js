@@ -28,13 +28,23 @@ module.exports = {
         //   },
         // ],
       },
+      // gradientColor: {
+      //   customGradient: "321.2deg, #160F20 6.92%, #191020 128.11%",
+      // },
       colors: {
         brightPink: "#F701F8",
         dark: "#060606",
-        // "white-100": "#ffffff",
+        darkDeep: "#0B090E",
+        blackBox: "#160F20",
+        purpleBox: "#191020",
+        // gradientColor: {
+        //   100: "linear-gradient(321.2deg, #160F20 6.92%, #191020 128.11%)",
+        // },
       },
+
       boxShadow: {
         boxNav: "inset 0px -1px 0px #000000;",
+        boxSroll: "0px 4px 4px rgba(0, 0, 0, 0.25);",
       },
     },
     screens: {
@@ -45,11 +55,5 @@ module.exports = {
       xl: "1440px",
     },
   },
-  // screens: {
-  //   xs: "480px",
-  //   sm: "768px",
-  //   md: "1060px",
-  // },
-
   plugins: [],
 };

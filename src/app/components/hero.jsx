@@ -21,7 +21,7 @@ const Hero = () => {
           src={Home}
           alt="homeGraphic"
         />
-        <div className=' flex items-center xs:flex-col md:flex-row justify-center xs:gap-2 lg:gap-8 xl:absolute z-30 sm:-mt-8  md:-mt-12 md:pb-10 xl:mt-[30rem] '>
+        <div className=' flex items-center xs:flex-col md:flex-row justify-center xs:gap-2 lg:gap-8 xl:absolute z-20 sm:-mt-8  md:-mt-12 md:pb-10 xl:mt-[30rem] '>
           <button type='button' className={`${monumentExtended.className} bg-brightPink rounded-2xl py-4 text-white text-xl md:w-80 sm:w-[25rem] xs:w-80 font-extrabold hover:bg-white hover:text-brightPink tracking-[-.07em]`}> BUY</button>
           <button type='button' className={`${monumentExtended.className} bg-white rounded-2xl py-4 text-brightPink text-xl md:w-80 sm:w-[25rem] xs:w-80 font-extrabold hover:bg-brightPink hover:text-white tracking-[-.07em]`}> CONNECT WALLET</button>
         </div>

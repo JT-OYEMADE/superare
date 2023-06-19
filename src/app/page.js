@@ -4,6 +4,7 @@ import { monumentExtended } from "@/shared/fontLoader";
 import Navbar from "./components/nav-bar";
 import Hero from "./components/hero";
 import "./globals.css";
+import Partners from "./components/partners";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div className="app bg-dark">
       <Navbar />
       <Hero />
+      <Partners />
     </div>
   );
 }
