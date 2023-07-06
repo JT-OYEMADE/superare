@@ -5,6 +5,8 @@ import Navbar from "./components/nav-bar";
 import Hero from "./components/hero";
 import "./globals.css";
 import Partners from "./components/partners";
+import Collectibles from "./components/collectibles";
+import Faq from "./components/faqs";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +16,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Partners />
+      <Collectibles />
+      <Faq />
     </div>
   );
 }

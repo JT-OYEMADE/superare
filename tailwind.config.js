@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        faqShadow: "9px 8px 0px rgba(255, 255, 255, 0.4)",
+      },
       fontSize: {
         hxl: [
           "78px",
@@ -55,5 +58,5 @@ module.exports = {
       xl: "1440px",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

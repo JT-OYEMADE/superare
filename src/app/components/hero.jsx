@@ -3,6 +3,8 @@ import { monumentExtended } from "@/shared/fontLoader";
 import Image from 'next/image'
 import Home from 'public/Clone-X-1.png'
 import Home2 from 'public/Mystery-Item-B.png'
+import "../globals.css";
+
 
 
 
@@ -11,6 +13,8 @@ const Hero = () => {
     <div className=" bg-dark mx-auto md:h-full mt-20 xs:mt-8 sm:mt-8 w-full text-white">
       <h1 className={`pt-20 md:pt-24 ${monumentExtended.className} font-extrabold xl:text-hxl xs:text-4xl xl:px-48 sm:text-5xl md:text-6xl text-center media`}>Discover and Collect Super Rare NFTs</h1>
       <div className='bg-dark flex xs:flex-col justify-center items-center relative'>
+        <div className='hidden xl:block glow-h1'></div>
+        <div className='hidden xl:block glow-h2'></div>
         <Image
           className="absolute xs:-mt-36 xl:-mt-8 md:-mt-24 md:-ml-24  xs:-ml-6 xl:-ml-20 xs:mx-auto xs:w-72 sm:w-[21rem] md:w-[30rem] lg:w-[30rem] xl:w-[33rem] sm:-ml-10 sm:-mt-36"
           src={Home2}

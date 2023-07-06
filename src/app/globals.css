@@ -9,3 +9,57 @@ body,
   /* height: 100%; */
   width: 100%;
 }
+
+.glow-h1 {
+  position: absolute;
+  width: 676px;
+  height: 180px;
+  left: 199px;
+  top: 300px;
+
+  background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+  filter: blur(95.1992px);
+}
+
+.glow-h2 {
+  position: absolute;
+  width: 682px;
+  height: 180px;
+  left: 559px;
+  top: 300px;
+
+  background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+  filter: blur(95.1992px);
+}
+
+.glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  /* left: 1159px; */
+  /* top: -78px; */
+  right: 0;
+
+  background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+  filter: blur(95.1992px);
+}
+
+.glow2 {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  left: -91px;
+  top: 1778px;
+
+  background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+  filter: blur(95.1992px);
+  z-index: 0;
+}

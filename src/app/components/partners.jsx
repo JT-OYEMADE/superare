@@ -12,7 +12,7 @@ const Partners = () => {
 
   return (
     <section className="bg-darkDeep pt-16 pb-16">
-      <div className={`${monumentExtended.className} text-center text-white text-3xl font-extrabold tracking-tighter pt-10 mb-10 `}>Partners</div>
+      <div className={`${monumentExtended.className} text-center text-white text-3xl font-extrabold tracking-tighter pt-0 mb-10 `}>Partners</div>
       <HorizontalScroll baseVelocity={-2}>
         {items.map((item, index) => {
           return (
