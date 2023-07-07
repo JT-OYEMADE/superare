@@ -8,6 +8,7 @@ import Partners from "./components/partners";
 import Collectibles from "./components/collectibles";
 import Faq from "./components/faqs";
 import Join from "./components/join";
+import Footer from "./components/footer";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Collectibles />
       <Faq />
       <Join />
+      <Footer />
     </div>
   );
 }

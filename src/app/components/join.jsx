@@ -3,6 +3,7 @@ import Join1 from 'public/join.png'
 import Join2 from 'public/superare.png'
 import { monumentExtended } from "@/shared/fontLoader";
 import Image from 'next/image'
+import Link from 'next/link';
 
 
 const navigation = [
@@ -33,7 +34,7 @@ const Join = () => {
         />
         <div className=' text-base font-thin flex md:flex-row xs:flex-col justify-center xs:gap-4 xl:gap-7'>
           {navigation.map((item) => (
-            <a key={item.key} href={item.href}>{item.name}</a>
+            <Link key={item.key} href={item.href}>{item.name}</Link>
           ))}
         </div>
       </div>
